@@ -1,0 +1,100 @@
+body{
+	background-image: url(fondo.jpg);
+	background-size: cover;
+}
+
+.primer_plano{
+	z-index: -1;
+}
+
+.hojas{
+	width: 10vw;
+	height: 18vh;
+	border-radius: 50%;
+	background-image: url(hojas.jpg);
+	background-size: cover;
+	position: absolute;
+	margin-left: 0.4vw;
+	margin-top: 60vh;
+	z-index: 5;
+}
+
+.tronco {
+    width: 3vw; 
+    height: 30vh; 
+    position: absolute;
+    margin-left: 4vw;
+    margin-top: 76vh;
+    background-image: url(tronco.jpg);
+    background-size: cover;
+}
+
+.segundo_plano{
+	z-index: 2;
+}
+
+.primer_piso1{
+	background-image: url(edificio.jpg);
+	background-size: contain;
+	height: 20vh;
+	margin: 0;
+}
+
+.primer_piso2{
+	background-image: url(edificio.jpg);
+	background-size: contain;
+	height: 20vh;
+	margin: 0;
+}
+
+.planta_baja1{
+	background-image: url(edificio.jpg);
+	background-size: contain;
+	height: 20vh;
+	margin: 0;	
+}
+
+.planta_baja2{
+	background-image: url(edificio.jpg);
+	background-size: contain;
+	height: 20vh;
+	margin: 0;	
+}
+
+.puerta{
+	background-image: url(puerta.jpg);
+	background-size: cover;
+	height: 20vh;
+}
+
+.aire{
+	background-image: url(aire.jpg);
+	background-size: cover;
+	margin-left: 8%;
+	margin-top: 10vh;
+	height: 10vh;
+	width: 13%;
+	text-align: center;
+	color: white;
+	z-index: 8;
+}
+
+.ventana{
+	background-image: url(ventana.jpg);
+	background-size: cover;
+	height: 8vh;
+	width: 4vw;
+	margin-top: 20%;
+}
+
+.pasto{
+	background-image: url(cesped.png);
+	background-size: contain;
+	width: 230vh;
+	margin-bottom: 0;
+}
+
+.hasta_abajo{
+	position: absolute;
+	bottom: 0;
+}
